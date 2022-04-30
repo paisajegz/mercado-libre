@@ -17,3 +17,25 @@ para correr los tres procesos es necesario hacer uso del comando
 ```sh
 go run main.go
 ```
+## link de las pruebas en la capa gratuita de heroku
+
+| nivel | link |
+| ------ | ------ |
+|  level-2 | https://mercado-libre-test-2.herokuapp.com/ |
+| level-3 | https://mercado-libre-test-juan.herokuapp.com/ |
+
+## en point pedidos en la prueba level 3
+
+| method | link |  end point  | 
+| ------ | ------ | ------ |
+|  mutant | https://mercado-libre-test-2.herokuapp.com/ | /mutant |
+| stats | https://mercado-libre-test-juan.herokuapp.com/ | /stats |
+
+
+
+
+## en point pedidos en la prueba level 2
+
+| method | link |  end point  | 
+| ------ | ------ | ------ |
+|  mutant | https://mercado-libre-test-2.herokuapp.com/ | /mutant |
