@@ -1,0 +1,12 @@
+database:
+  driver: "postgres"
+  dbname: "daegt2c9n7q1er"
+  username: "nejdzlvymoxivp"
+  password: "f3ec4f79cff573d0c3331c64a3c4aff322bed89a9a4f5d8c5947782f8c6d2c94"
+  host: "ec2-52-71-69-66.compute-1.amazonaws.com"
+  port: "5432"
+  max_lifetime: 7200
+  max_open_conns: 150
+  max_idle_conns: 50
+server:
+  port: "59836"
