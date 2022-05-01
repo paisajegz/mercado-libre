@@ -1,9 +1,9 @@
 database:
   driver: "postgres"
-  dbname: "daegt2c9n7q1er"
-  username: "nejdzlvymoxivp"
-  password: "f3ec4f79cff573d0c3331c64a3c4aff322bed89a9a4f5d8c5947782f8c6d2c94"
-  host: "ec2-52-71-69-66.compute-1.amazonaws.com"
+  dbname: "d6mvi3kuoccv8a"
+  username: "gvoghtdjwxxdzy"
+  password: "ef4efcd16751371d906bcadacbddd8726d4b1957e58d46308478539e4f0268d3"
+  host: "ec2-34-236-94-53.compute-1.amazonaws.com"
   port: "5432"
   max_lifetime: 7200
   max_open_conns: 150
