@@ -12,14 +12,17 @@ func CustomValidation(v *validator.Validate) {
 	v.RegisterValidation("is-dna", func(fl validator.FieldLevel) bool {
 		// var dna []string
 		data := fl.Field().Interface().([]string)
-
-		countDna := len(data)
-		for _, cadena := range data {
-			if len(string(cadena)) != countDna {
-				return false
-			}
-		}
-		return true
+		return ValidateDna(data)
 	})
 
+}
+
+func ValidateDna(data []string) bool {
+	countDna := len(data)
+	for _, cadena := range data {
+		if len(string(cadena)) != countDna {
+			return false
+		}
+	}
+	return true
 }

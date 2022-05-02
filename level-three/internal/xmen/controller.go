@@ -49,7 +49,7 @@ func Stats(c echo.Context) error {
 func IsMutant(dna *DNA) bool {
 	for y, cadena := range dna.DNA {
 		for x, item := range cadena {
-			if verifyDna(dna, string(item), x, y) {
+			if VerifyDna(dna, string(item), x, y) {
 				return true
 			}
 

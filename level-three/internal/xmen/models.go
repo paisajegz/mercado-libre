@@ -5,8 +5,8 @@ type DNA struct {
 }
 
 type Verifycation struct {
-	is_invalid bool
-	item       string
+	Is_invalid bool
+	Item       string
 }
 
 type ResponseStat struct {
