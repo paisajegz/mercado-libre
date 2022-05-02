@@ -17,6 +17,15 @@ para correr los tres procesos es necesario hacer uso del comando
 ```sh
 go run main.go
 ```
+
+## Testing
+solo lo coloque en el nivel numero 3 de lo que yo vi necesario validar, porque el chiste es validar la funcionalidad de lo que se hiso no de un framework que actualmente se sabe que ya funciona. el comando que utilize fue el siguiente
+
+
+```sh
+go test -v ./test
+```
+
 ## link de las pruebas en la capa gratuita de heroku
 
 | nivel | link |
